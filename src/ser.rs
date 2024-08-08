@@ -236,7 +236,7 @@ impl Serializer {
     pub const fn new() -> Self {
         Self {
             serialize_missing_as_null: false,
-            serialize_maps_as_objects: false,
+            serialize_maps_as_objects: true,
             serialize_large_number_types_as_bigints: false,
             serialize_bytes_as_arrays: false,
         }
